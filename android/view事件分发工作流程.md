@@ -1,6 +1,6 @@
 # view事件分发工作流程
 
-![event_dispatch](E:\workspace\doc\treasure\android\img\event_dispatch.png)
+![event_dispatch](.\img\event_dispatch.png)
 
 - action_down事件是事件序列的开始，会清除之前事件序列的状态。
 - 一个触控点的序列一般情况下只给一个view处理，当一个view消费了一个触控点的down事件后，该触控点的事件序列后续事件都会交给他处理。
